@@ -11,4 +11,13 @@
         <servlet-name>MyServlet</servlet-name>
         <url-pattern>/my-servlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>myJsp</servlet-name>
+        <jsp-file>/myJsp.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>myJsp</servlet-name>
+        <url-pattern>/my-jsp</url-pattern>
+    </servlet-mapping>
 </web-app>

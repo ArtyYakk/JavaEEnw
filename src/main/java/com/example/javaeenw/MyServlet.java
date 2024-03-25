@@ -13,16 +13,18 @@ public class MyServlet extends HttpServlet {
     private String message;
 
     public void init() {
-        message = "Hello from my servlet!";
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
 
+        String name = request.getParameter("name");
+        String surname = request.getParameter("surname");
+
         // Hello
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
-        out.println("<h1>" + message + "</h1>");
+        out.println("<h1>Hello " + name + " " + surname + "</h1>");
         out.println("</body></html>");
     }
 

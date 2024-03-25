@@ -14,6 +14,9 @@
 <p>
     <a href="my-servlet">My Servlet</a>
 </p>
+<p>
+    <a href="/my-jsp">My jsp</a>
+</p>
 
 </body>
 </html>
