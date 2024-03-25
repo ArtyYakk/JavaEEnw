@@ -9,14 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0592b9ca-5021-4614-92d9-5ab72ad5a4e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/logic/TestClass.java" afterDir="false" />
+    <list default="true" id="0592b9ca-5021-4614-92d9-5ab72ad5a4e7" name="Changes" comment="jsp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeenw/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeenw/MyServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/myJsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/myJsp.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +29,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ArtyYakk"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="48a2d98f-01b5-4d75-9055-0e24f9fb9e26" />
+        <option name="url" value="https://github.com/ArtyYakk/JavaEEnw.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -371,11 +380,35 @@
       <workItem from="1711026679985" duration="526000" />
       <workItem from="1711050292891" duration="2058000" />
       <workItem from="1711351359404" duration="5830000" />
-      <workItem from="1711369389684" duration="910000" />
+      <workItem from="1711369389684" duration="3202000" />
     </task>
+    <task id="LOCAL-00001" summary="jsp">
+      <option name="closed" value="true" />
+      <created>1711370551260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711370551260</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="jsp" />
+    <option name="LAST_COMMIT_MESSAGE" value="jsp" />
   </component>
 </project>
