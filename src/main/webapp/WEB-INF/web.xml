@@ -20,4 +20,15 @@
         <servlet-name>myJsp</servlet-name>
         <url-pattern>/my-jsp</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>showCart</servlet-name>
+        <jsp-file>/showCart.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showCart</servlet-name>
+        <url-pattern>/show-cart</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>

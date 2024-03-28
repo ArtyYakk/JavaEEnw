@@ -7,6 +7,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
+import logic.Cart;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -19,34 +20,30 @@ public class MyServlet extends HttpServlet {
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        response.setContentType("text/html");
-
         HttpSession session = request.getSession();
 
-        Integer count = (Integer)session.getAttribute("count");
+        String user = (String)session.getAttribute("current_user");
 
-        if(count == null){
-            session.setAttribute("count", 1);
-            count = 1;
-        } else {
-            session.setAttribute("count", count + 1);
+        if(user == null){
+
+        } else{
+
         }
-
+//        Cart cart = (Cart)session.getAttribute("cart");
+//
 //        String name = request.getParameter("name");
-//        String surname = request.getParameter("surname");
+//        int quantity = Integer.parseInt(request.getParameter("quantity"));
+//
+//
+//        if(cart == null){
+//            cart = new Cart();
+//            cart.setName(name);
+//            cart.setQuantity(quantity);
+//        }
+//
+//        session.setAttribute("cart", cart);
 
-        // Hello
-        PrintWriter out = response.getWriter();
-        out.println("<html><body>");
-        out.println("<h1>Your count is: " + count + " </h1>");
-//        out.println("<h1>Hello " + name + " " + surname + "</h1>");
-        out.println("</body></html>");
-
-//        response.sendRedirect("/my-jsp");
-
-//        RequestDispatcher dispatcher = request.getRequestDispatcher("/my-jsp");
-//        dispatcher.forward(request, response);
-
+        getServletContext().getRequestDispatcher("/showCart.jsp").forward(request, response);
     }
 
     public void destroy() {

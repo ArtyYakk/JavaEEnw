@@ -17,6 +17,11 @@
 <p>
     <a href="/my-jsp">My jsp</a>
 </p>
+<p>
+    <a href="/show-cart">Show cart</a>
+</p>
+
+
 
 </body>
 </html>
