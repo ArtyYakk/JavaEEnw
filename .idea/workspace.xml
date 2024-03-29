@@ -10,12 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0592b9ca-5021-4614-92d9-5ab72ad5a4e7" name="Changes" comment="session 1/2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/logic/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/showCart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_03_2024,_09_53_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_03_2024__09_53__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeenw/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeenw/MyServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -388,6 +385,8 @@
       <workItem from="1711434084872" duration="1083000" />
       <workItem from="1711435430644" duration="3429000" />
       <workItem from="1711607924507" duration="2635000" />
+      <workItem from="1711613505624" duration="1198000" />
+      <workItem from="1711718104256" duration="539000" />
     </task>
     <task id="LOCAL-00001" summary="jsp">
       <option name="closed" value="true" />
